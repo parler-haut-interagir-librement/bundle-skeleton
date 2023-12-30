@@ -1,0 +1,20 @@
+{
+    "name": "phil/bundle-skeleton",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "description": "A Proclaim Honestly, Interact Liberally - Internet Platform (Symfony) bundle recommended to create new phil-ip bundles",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "symfony/framework-bundle": "^6.4|^7.0"
+    },
+    "require-dev": {
+        "phil/bundle-flex": "^0.1"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phil/bundle-flex": true
+        }
+    }
+}
