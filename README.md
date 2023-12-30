@@ -4,7 +4,7 @@ A Proclaim Honestly, Interact Liberally - Internet Platform (Symfony) bundle rec
 
 A Symfony bundle, ideal for creating new phil-ip bundles, comes with a helpful [assistant](https://github.com/yceruto/bundle-flex). This assistant aids in configuring the bundle to suit your initial needs while ensuring compliance with Symfony Best Practices.
 
-Base on [strangebuzz/MicroSymfony](https://github.com/yceruto/bundle-skeleton) with adjustment to fit phil-ip requirements.
+Base on [yceruto/bundle-skeleton](https://github.com/yceruto/bundle-skeleton) with adjustment to fit phil-ip requirements.
 
 Installation
 
