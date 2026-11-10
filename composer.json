@@ -5,8 +5,8 @@
     "description": "A Proclaim Honestly, Interact Liberally - Internet Platform (Symfony) bundle recommended to create new phil-ip bundles",
     "minimum-stability": "stable",
     "require": {
-        "php": ">=8.2",
-        "symfony/framework-bundle": "^6.4|^7.0"
+        "php": ">=8.4",
+        "symfony/framework-bundle": "^8.0"
     },
     "require-dev": {
         "phil/bundle-flex": "^0.1"
