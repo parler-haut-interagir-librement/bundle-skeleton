@@ -1,20 +1,21 @@
-# Proclaim Honestly, Interact Liberally - Internet Platform (Symfony) Bundle Skeleton
+# PHIL bundle skeleton
 
-A Proclaim Honestly, Interact Liberally - Internet Platform (Symfony) bundle recommended to create new phil-ip bundles
+This skeleton is no longer maintained. New PHIL packages, libraries and bundles alike, are created with the `new`
+command of [phil/dev-tools](https://github.com/parler-haut-interagir-librement/dev-tools):
 
-A Symfony bundle, ideal for creating new phil-ip bundles, comes with a helpful [assistant](https://github.com/parler-haut-interagir-librement/bundle-flex). This assistant aids in configuring the bundle to suit your initial needs while ensuring compliance with Symfony Best Practices.
-
-Base on [yceruto/bundle-skeleton](https://github.com/yceruto/bundle-skeleton) with adjustment to fit phil-ip requirements.
-
-Installation
-
-```
-composer create-project parler-haut-interagir-librement/bundle-skeleton <your-bundle-name>
+```bash
+composer require --dev phil/dev-tools
+vendor/bin/phil-dev new vendor/name --bundle
 ```
 
-During the bundle installation process, you will be prompted to provide details about the features you wish to activate. Once this information is submitted, the assistant will handle the remaining setup for you.
+`phil-dev new` writes the file set every PHIL package has: sources, tests, bilingual documentation, CHANGELOG and the
+configuration of the quality tools. See
+[The package skeleton](https://github.com/parler-haut-interagir-librement/dev-tools/blob/main/doc/skeleton.md).
 
-Visit https://github.com/parler-haut-interagir-librement/bundle-flex for more details.
+This repository will be archived.
 
-License
-This software is published under the MIT License
+[Version française](README.fr.md)
+
+## License
+
+MIT
